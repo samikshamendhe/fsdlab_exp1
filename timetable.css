@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+}
+
+h2, h3 {
+    text-align: center;
+    margin: 5px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+/* Common cell styling */
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+/* Header row */
+th {
+    background-color: #cce5cc;
+    font-weight: bold;
+}
+
+/* Time / Day column */
+.time {
+    background-color: #d9edf7;
+    font-weight: bold;
+}
+
+/* Day names */
+.day {
+    background-color: #cce5cc;
+    font-weight: bold;
+    width: 110px;
+}
+
+/* Break cells */
+.break {
+    background-color: #add8e6;
+    font-weight: bold;
+}
+
+/* Combined Lab Session column */
+.lab {
+    background-color: #fff3cd;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+/* CC sessions */
+.cc {
+    background-color: #e2e3e5;
+    font-weight: bold;
+}
+
+/* Optional: Better readability on large screens */
+@media (min-width: 1200px) {
+    th, td {
+        font-size: 15px;
+        padding: 10px;
+    }
+}
